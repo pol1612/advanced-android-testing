@@ -37,6 +37,8 @@ dependencies {
     implementation "androidx.annotation:annotation:$androidXAnnotations"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
     implementation "com.jakewharton.timber:timber:$timberVersion"
+    testImplementation "org.hamcrest:hamcrest-all:$hamcrestVersion"
+
 
     // Architecture Components
     implementation "androidx.room:room-runtime:$roomVersion"
